@@ -3,7 +3,7 @@
 
 int pin = 13;
 int sensorK10 = A0;
-HandlingData *run = new HandlingData(1000);
+HandlingData *run = new HandlingData(10000);
 
 void setup() {
   pinMode(pin, OUTPUT);
